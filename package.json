@@ -1,13 +1,13 @@
 {
-  "name": "vite-plugin-vue2-svg",
-  "version": "0.3.0",
-  "description": "load SVG files as Vue components, for Vue2.x only.",
+  "name": "@kingyue/vite-plugin-vue2-svg",
+  "version": "0.4.0",
+  "description": "Load SVG files as Vue2 components",
   "main": "lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/pakholeung37/vite-plugin-vue2-svg",
+  "repository": "https://github.com/kingyue737/vite-plugin-vue2-svg",
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w",
@@ -17,7 +17,7 @@
   "keywords": [
     "vite",
     "vite-plugin",
-    "vite-svg",
+    "svg",
     "vue2",
     "vue"
   ],
@@ -27,21 +27,21 @@
     "vue-template-compiler": "^2.2.0"
   },
   "dependencies": {
-    "@vue/component-compiler-utils": "^3.2.0",
-    "svgo": "^3.0.0"
+    "@vue/component-compiler-utils": "^3.3.0",
+    "svgo": "^3.0.1"
   },
   "devDependencies": {
-    "@types/node": "^18.11.3",
-    "@typescript-eslint/eslint-plugin": "^4.15.0",
-    "@typescript-eslint/parser": "^4.15.0",
-    "eslint": "^7.21.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-prettier": "^3.3.0",
-    "prettier": "^2.2.1",
-    "tslib": "^2.1.0",
-    "typescript": "^4.2.0",
-    "vite": "^2.0.0",
-    "vue": "^2.0.0",
-    "vue-template-compiler": "^2.2.0"
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.8.4",
+    "vite": "^3.2.3",
+    "vue": "^2.7.14",
+    "vue-template-compiler": "^2.7.14"
   }
 }
