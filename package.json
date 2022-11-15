@@ -13,6 +13,9 @@
     "dev": "tsc -w",
     "prepublishOnly": "pnpm build"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [
     "vite",
     "vite-plugin",
