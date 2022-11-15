@@ -1,15 +1,19 @@
 # vite-plugin-vue2-svg
 
-load SVG files as Vue components, for Vue2.x only.
+Load SVG files as Vue components, for Vue2.x only.
+
+This fork updates dependencies of the unmaintained [original repo](https://github.com/pakholeung37/vite-plugin-vue2-svg).
 
 [![NPM](https://nodei.co/npm/vite-plugin-vue2-svg.png)](https://npmjs.org/package/vite-plugin-vue2-svg/)
 
 ## Install
 
 ```bash
-yarn add vite-plugin-vue2-svg
+pnpm add -D @kingyue/vite-plugin-vue2-svg
 # or
-npm install vite-plugin-vue2-svg
+yarn add -D @kingyue/vite-plugin-vue2-svg
+# or
+npm install -D @kingyue/vite-plugin-vue2-svg
 ```
 
 ## Usage
@@ -17,8 +21,8 @@ npm install vite-plugin-vue2-svg
 ```js
 // vite.config.ts
 import { defineConfig } from "vite";
-import { createVuePlugin } from "vite-plugin-vue2"; // vue2 plugin
-import { createSvgPlugin } from "vite-plugin-vue2-svg";
+import createVuePlugin from "@vitejs/plugin-vue2";
+import { createSvgPlugin } from "@kingyue/vite-plugin-vue2-svg";
 
 export default defineConfig({
   plugins: [createVuePlugin(), createSvgPlugin()],
