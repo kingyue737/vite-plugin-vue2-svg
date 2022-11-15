@@ -11,8 +11,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w",
-    "build:type": "tsc -p ./tsconfig.type.json",
-    "test": "jest --no-cache"
+    "build:type": "tsc -p ./tsconfig.type.json"
   },
   "keywords": [
     "vite",
