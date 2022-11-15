@@ -3,7 +3,7 @@
   "version": "0.4.0",
   "description": "Load SVG files as Vue2 components",
   "main": "lib/index.js",
-  "types": "./lib/index.d.ts",
+  "types": "lib/index.d.ts",
   "files": [
     "lib"
   ],
@@ -11,7 +11,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w",
-    "build:type": "tsc -p ./tsconfig.type.json"
+    "prepublishOnly": "pnpm build"
   },
   "keywords": [
     "vite",
@@ -30,6 +30,7 @@
     "svgo": "^3.0.1"
   },
   "devDependencies": {
+    "@types/csso": "^5.0.0",
     "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0",
