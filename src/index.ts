@@ -54,7 +54,8 @@ export function createSvgPlugin(
 
   return {
     name: "vite-plugin-vue2-svg",
-    async transform(_source: string, id: string) {
+    enforce: "pre",
+    async load(id: string) {
       if (/\?raw/.test(id)) {
         return null;
       }
