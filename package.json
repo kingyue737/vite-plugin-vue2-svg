@@ -23,27 +23,27 @@
     "vue2",
     "vue"
   ],
-  "author": "pakholeung37@gmail.com",
+  "author": "yuejin13@fudan.edu.cn",
   "license": "MIT",
   "peerDependencies": {
     "vue-template-compiler": "^2.2.0"
   },
   "dependencies": {
     "@vue/component-compiler-utils": "^3.3.0",
-    "svgo": "^3.0.1"
+    "svgo": "^3.0.2"
   },
   "devDependencies": {
     "@types/csso": "^5.0.0",
-    "@types/node": "^18.11.9",
-    "@typescript-eslint/eslint-plugin": "^5.43.0",
-    "@typescript-eslint/parser": "^5.43.0",
-    "eslint": "^8.27.0",
+    "@types/node": "^18.11.15",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.7.1",
+    "prettier": "^2.8.1",
     "tslib": "^2.4.1",
-    "typescript": "^4.8.4",
-    "vite": "^3.2.3",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.1",
     "vue": "^2.7.14",
     "vue-template-compiler": "^2.7.14"
   }
