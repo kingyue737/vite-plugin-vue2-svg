@@ -2,9 +2,9 @@
 
 Load SVG files as Vue components, for Vue2.x only.
 
-This fork updates dependencies of the unmaintained [original repo](https://github.com/pakholeung37/vite-plugin-vue2-svg).
+This fork fixs bugs of the unmaintained [original repo](https://github.com/pakholeung37/vite-plugin-vue2-svg).
 
-[![NPM](https://nodei.co/npm/vite-plugin-vue2-svg.png)](https://npmjs.org/package/vite-plugin-vue2-svg/)
+[![NPM](https://nodei.co/npm/@kingyue/vite-plugin-vue2-svg.png)](https://www.npmjs.com/package/@kingyue/vite-plugin-vue2-svg)
 
 ## Install
 
@@ -53,10 +53,12 @@ import Icon from "./icon.svg?raw"; // svg file import without transform
 
 ## Options
 
-```js
-createSvgPlugin({
-  svgoConfig: SVGO.Options, // check https://github.com/svg/svgo
-});
+```ts
+createSvgPlugin(option: {
+  svgo?: boolean            // whether optimized by svgo
+  svgoConfig?: SVGO.Options // check https://github.com/svg/svgo
+  defaultImport?: 'url' | 'raw'
+} = {});
 ```
 
 ## License
