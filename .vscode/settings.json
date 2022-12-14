@@ -1,0 +1,8 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["prettierrc"],
+      "url": "https://json.schemastore.org/prettierrc.json"
+    }
+  ]
+}
