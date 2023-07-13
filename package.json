@@ -1,6 +1,6 @@
 {
   "name": "@kingyue/vite-plugin-vue2-svg",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Vite plugin to load SVG files as Vue 2 components",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

@@ -59,6 +59,7 @@ export function createSvgPlugin(
         source: svg,
         filename: path,
         transformAssetUrls: false,
+        prettify: false,
       });
 
       return `${code}\nexport default { render: render }`;
